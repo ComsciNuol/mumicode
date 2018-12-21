@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3cs2 website</title>
+    <style>
+        body {
+            font-size: 14px;
+            line-height: 1.6em;
+            font-family: sans-serif;
+        }
+        .container {
+            width: 100%;
+        }
+        header {
+            background-color: black;
+            height: 50px;
+            width: 100%;
+            margin: auto;
+            position: fixed;
+            margin: 0;
+            padding: 0;
+            top: 0;
+        }
+        nav {
+            width: 300px;
+           margin: auto;
+        }
+        nav li  {
+            width: 100px;
+            float: left;
+            list-style: none;
+            margin-top: 10px;;
+        }
+        nav li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            float: right;
+        }
+        nav li a:hover {
+            color: gold;
+        }
+        section.background {
+            background-image: url(FNs.jpg);
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+        }
+        .alldepartment div:nth-child(1) img{
+            width: 500px;
+            height: 240px;
+        }
+         .alldepartment div:nth-child(2) img{
+            width: 500px;
+        }
+         .alldepartment div:nth-child(3) img{
+            width: 500px;
+        }
+         .alldepartment div:nth-child(4) img{
+            width: 500px;
+        }
+        .alldepartment div:nth-child(1),
+        .alldepartment div:nth-child(3){
+            float: left;
+        }
+        .alldepartment {
+            margin-top: 2px;
+            width: 1200px;
+             margin: auto;
+        }
+        .alldepartment div {
+            padding: 5px;
+        }
+        .alldepartment div img {
+            opacity: 1;
+            transition: 0.5s;
+        }
+        .alldepartment div:hover img{
+            opacity: 0.9;
+            box-shadow: 0,0,0 0.9;
+        }
+        section.faculty h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+        section.faculty p {
+            font-size: 20px;
+            width: 1000px;
+            margin: auto;
+        }
+        footer {
+            background-color: #000;
+            height: 100px;
+        }
+        footer p {
+            color: #fff;
+            text-align: center;
+            padding-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <nav>
+                <li><a href="">ໜ້າຫຼັກ</a></li>
+                <li><a href="">ກ່ຽວກັບ</a></li>
+                <li><a href="">ຕິດຕໍ່</a></li>
+            </nav>
+        </header>
+        <section class="background"> 
+        </section>
+        <section class="faculty">
+           <h1>ແຕ່ລະພາກວິຊາ ຂອງຄະນະວີທະຍາສາດ ທຳມະຊາດ</h1>
+           <p>
+               ຄະນະວິທະຍາສາດ​ທຳ​ມະ​ຊາດ (ຂຽນຫຍໍ້ວ່າ "ຄວທ") ເປັນຄະນະວິຊາໜຶ່ງ  ທີ່ສັງກັດໃນໂຄງປະກອບການຈັດຕັ້ງ  ຂອງມະຫາວິທະຍາໄລແຫ່ງຊາດ, ມີພາລະບົດບາດເປັນເສນາທິການໃຫ້ແກ່ອະທິການບໍດີ ໃນການຈັດຕັ້ງການຮຽນ-ການສອນ ສາຂາ​ວິຊາ​ວິທະຍາສາດ​ທຳ​ມະ​ຊາດ  ​ເພື່ອສ້າງນັກ ວິຊາການ,  ນັກຄົ້ນ ຄວ້າວິທະຍາສາດ,  ການ​ອະນຸລັກ ​ ແລະ​ ສົ່ງ​ເສີມ​ສິລະ​ປະວັດ​ທະນະ​ທຳ​ອັນ​ດີງາມຂອງ​ຊາດ ກໍ​ຄື​ຂອງ​ປະຊາຊົນ​ບັນດາ​ເຜົ່າ ​ແລະ​ໃຫ້ການ​ບໍລິການທາງດ້ານ​ວິຊາ​ການ​ແກ່​ສັງຄົມ.
+           </p>
+            <div class="alldepartment">
+                <div><a href="page-cs.html"><img src="CS.jpg" alt=""></a></div>
+                <div><a href="page-bio.html"><img src="Biology.jpg" alt=""></a></div>
+                <div><a href="page-ps.html"><img src="Physic.jpg" alt=""></a></div>
+                <div><a href="page-ch.html"><img src="Chemistry.jpg" alt=""></a></div>  
+            </div>
+        </section>
+        <footer>
+            <p>
+                Copyright 2018 Education Class 3cs2
+            </p>
+        </footer>
+    </div>
+    
+</body>
+</html>
